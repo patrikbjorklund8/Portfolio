@@ -1,0 +1,134 @@
+body {
+    
+    font-family: 'Open Sans', arial, sans-serif;
+    width: 90%;
+    background-color: green;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+#primary-nav-bar {
+    display: block;
+    height: 80px;
+    background-color: #efefef;}
+
+#content {
+    background-color: white;
+    
+}	
+.name {
+    font-weight: normal;
+    margin: 28px 30px 10px 100px;
+    float: left;
+    text-transform: uppercase;
+    height: 90px;}
+
+@media screen and (max-width: 800px) {
+    .name {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
+nav {
+    float: right; 
+    margin-left: 600px;
+    
+	margin-top: 40px;
+	font-size: 15px;}
+	
+nav a {
+	margin: 15px;
+	font-size: 20px;
+    text-decoration: none;
+	text-transform: uppercase;}
+
+@media screen and (max-width: 1800px) {
+    nav   {
+      
+        position: relative;
+        left: 10px;
+        bottom: 130px;
+        margin-bottom: -50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+       position: absolute;
+       left: 12%;
+       top: 70px;
+       width: 50px;
+       height: 40px;
+    }
+}
+.about-me {
+    position: relative;}	
+
+ h2 {
+    position: absolute;
+    top: 80px;
+    font-size: 40px;
+    left: 850px;}
+
+.about-me p {
+    
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    left: 850px;
+    width: 100px;}
+
+.about-me img {
+	
+    left: 0;}
+
+@media screen and (max-width: 1000px) {
+    .about-me p {
+        top: 200px;
+        left: 40%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .about-me h2 {
+        top: 110px;
+     left: 40%;
+    }
+}
+#project {
+    width: 100%;
+    text-align: center;}
+	
+#projects {
+    width: 100%;}
+
+footer {
+    
+    background-color: green;}
+
+#contact {
+    margin-left: 690px;
+}
+    
+#phone {
+    text-align: center;
+    margin-right: 290px;
+}  
+
+#mail {
+    margin-right: 260px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    #contact-info {
+        margin-left: 5%;
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #contact {
+        margin-left: 3%;
+    }
+}

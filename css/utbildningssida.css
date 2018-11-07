@@ -1,0 +1,204 @@
+div #content-proj-2 {
+    color: #666;
+    font-family: 'Open Sans', arial, sans-serif;
+    width: 100%;
+    margin:  0 auto 0 auto;}
+
+
+#header-proj-2 {
+    display: block;
+    height: 50px;
+    top: 0px;
+    
+}
+
+@media screen and (max-width: 800px) {
+    .information p, h3 {
+        width: 50%;
+        margin-left: 1%;
+        
+    }
+}
+
+
+
+.nav-proj-2 a {
+	font-size: 0.9em;
+	margin: 5px;
+	text-decoration: none;}
+
+aside {
+	width: 230px;
+    float: right;}
+
+section.information {
+	float: left;
+	margin: 10px;
+    width: 659px;}
+	
+#courses {
+    margin-top: 50px;}
+	
+#courses h3 {
+    color: black;
+    font-size: 25px;
+}
+
+img {
+float: center;
+position: relative;
+top: 15px;
+left: 30px;
+}
+
+
+.requirements {
+margin-top: 200px;
+font-size: 20px;
+width: 310px;}
+
+.requirements h2 {
+color: black;
+text-transform: uppercase;}
+
+
+
+aside .points-salary #points {
+    margin-top: 930px;
+    margin-left: 360px}
+    
+    aside .points-salary #percent {
+    margin-top: 1070px;
+    margin-left: 360px;}
+
+
+aside .points-salary h2 {
+    color: blue;
+    font-size: 60px;
+    margin-bottom: 0;
+    margin-top: 1400px;
+    margin-left: 500px;
+}
+
+
+    
+    aside .points-salary #salary {
+  }
+    
+@media screen and (max-width: 800px) {
+        .points-salary {
+            position: absolute;
+            top: 1900px;
+            left: 20px;
+        }
+     }
+ @media screen and (max-width: 800px) {
+        aside .points-salary #percent { 
+              position: relative;
+              right: 100%;
+        }
+    }
+
+#general-info h2 {
+    font-size: 30px;
+	text-transform: uppercase;
+	color: black;
+	margign: 880px 400px 250px -390px;
+}
+@media screen and (max-width: 800px) {
+    #general-info h2 {
+        position: relative;
+        margin-bottom: 90px;
+        margin-top: -150px;
+        left: 60%;
+        width: 200px;
+        
+    }
+}
+
+aside .points-salary p {
+    font-size: 20px;
+    margin-top: 120px;}
+
+.application-picture {
+    background-image: url('../images/mobileapps.jpg');
+    background-repeat: no-repeat;
+    width: 2000px;
+	margin-top: 120px;
+    height: 700px;
+}
+
+@media screen and (max-width: 800px) {
+    .application-picture {
+        position: relative;
+        width: 90%;
+        margin-top: 10%;
+        
+    }
+}	
+form {
+    width: 400px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    text-align: left;
+	
+	font-weight: bold;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+input, textarea {
+    border: none;
+    border-radius: 5px;
+    background-color: #dcdcdc;
+    font-size: 1.5em;
+    margin-right: 10px;
+    line-height: 1em;
+    width: 480px;
+    padding: 20px 20px 20px 10px;
+}
+
+input[type=submit] {
+    background-color: #1fb684;
+    color: #fff;
+    font-weight: bold;
+    width: 150px;
+    float: right;
+    padding: 0.3em 0.5em 0.3em 0.5em;
+    margin: 0 -110px 70px 10px;
+	
+}
+
+input[type=submit]:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+	
+.radio {
+	margin-top: 100px;
+	font-size: 20px;
+	margin-left: 30px;
+	color: black;
+}
+
+.radio input {
+	width: 30px;
+	margin-left: 0px;
+	margin-right: -10px;
+}
+
+.radio p {
+	font-size: 30px;
+	margin: 0;
+	width: 150px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+	

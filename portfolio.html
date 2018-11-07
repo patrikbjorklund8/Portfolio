@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>Portfolio Patrik Björklund</title>
+		<link rel="stylesheet" href="css/portfolio.css" />
+		<link rel="stylesheet" href="css/pepper-grinder/jquery-ui-1.10.3.custom.css" />
+		<link rel="stylesheet" href="css/landingpage.css">
+		<link rel="stylesheet" href="css/utbildningssida.css">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="portfolio, patrik björklund, landningssida, utbildningssida" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+	    <header id="primary-nav-bar">
+		    <h1 class="name">Patrik Björklund</h1>
+			<nav>
+			    <a href="#project">Projekt</a>
+				<a href="#contact">Kontakt</a>
+			</nav>
+		</header>
+		<div id="content">
+		    <div class="about-me">
+		        <img src="computer.jpg" alt="computer" height="900" width="100%" >
+		        <h2>Om mig</h2>
+		        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+		    </div>
+			
+			<h1 id="project">Projekt</h1>
+		    <div id="projects">
+	            <ul>
+                    <li><a href="#tab-1">Landningssida</a></li>
+                    <li><a href="#tab-2">Utbildningssida</a></li>
+                </ul>
+				<div id="tab-1">
+					<div id="content-proj-1">
+                        <header id="header-proj-1">
+                            <h1><img src="images/KYH-logo.png" class="logo" alt="logo" width="90"  height="50"/></h1>
+                            <nav class="nav-proj-1">
+                                <a href="http://kyh.se/">Hem</a>
+                                <a href="http://kyh.se/kontakta-oss/">Kontakta oss</a>
+                            </nav>
+                        </header>
+                        <h2 id="h2-proj-1">Mobilapplikationsutvecklare</h2>
+                        <p class="course-info-proj-1">Inte antagen till Front End Developer? Oroa dig inte! Nu har du chansen att söka till vår nya utbildning där du får lära dig allt om appar och som använder sig av HTML, CSS och Javascript! </p>
+                        <p class="course-info-proj-1" id="bla">Registrera dig för extra information om utbildningen</p>
+                        <form id="form-proj-1">
+		                   <label for="username">Namn</label>
+			               <input type="text" id="username" name="username" required /><br>
+			               <label for="password">Lösenord</label>
+			               <input type="password" id="password" name="password" pattern=".{5,20}" required title="5 tecken eller fler" />
+			               <div id="feedback"></div>
+                           <label for="mail">Mailadress</label>
+			               <input type="text" id="answer" name="mail" required /><br>
+			               <input type="submit" value="Skicka" />
+		                </form>
+	                </div>
+                </div>
+				<div id="tab-2">
+				    <div id="content-proj-2">
+					    <header id="header-proj-2">
+                            <h1><img src="images/KYH-logo.png" class="logo" alt="logo" width="90"  height="70"/></h1>
+                            
+                        </header>
+		                <div class="application-picture"></div>
+		                <section class="information">
+			                <article id="general-info">
+				                <h2>Mobilapplikationsutvecklare på endast två år!</h2>
+					            <p>Låter nästan för bra för att vara sant? Men det är sant! På endast två år kommer du vara en skarp apputvecklare och otroligt eftertraktad på arbetsmarknaden!
+					            <p>Inom närmsta åren kommer det saknas tiotusentals programmerare så framtiden ser ljus ut för de som läser ämnet.</p>
+                            </article>
+			                <article id="courses">
+				                <h3>LIA</h3>
+					            <strong>100 YHP</strong><p>I utbildningen finns en praktikperiod på 20 veckor där du är ute på ett företag och arbetar som junior frontendutvecklare för att lära dig ännu mer!</p>
+				                <h3>JAVASCRIPT<img src="images/javascript.png" alt="javascript" height="40" /></h3>
+					            <strong>110 YHP</strong><p>Den största kursen i utbildningen handlar så klart om Javascript. Efter den här kursen kan du verkligen allt du behöver kunna!
+					            <h3>HTML 5 OCH CSS<img src="images/htmlcss.png" alt="htmlcss" height="70"/></h3>
+					            <strong>30 YHP</strong><p>Den här kursen går igenom allt inom HTML 5 och CSS 3.</p>
+					            <h3>ARBETSMETODIK FÖR UTVECKLARE</h3>
+					            <strong>20 YHP</strong><p>Som utvecklare finns det många verktyg och metoder man måste ha koll på. Exempelvis förväntas alla kunna versionshantering med ex. GIT idag. Fler kurser dyker upp inom kort...</p>
+				            </article>
+			            </section>
+			            <aside>
+			                <section class="points-salary">
+		                       <h2 id="points">400</h2>
+		                       <p>Yh-poäng</p>
+		                       <h2 id="percent">25%</h2>
+		                       <p>Praktik</p>
+		                       <h2 id="salary">30000</h2>
+		                       <p>Ingångslön</p>
+				            </section>
+			                <section class="requirements">
+				                <h2>Förkunskapskrav</h2>
+					            <ul>
+					               <li>Matematik B / Matematik 2a, 2b, 2c</li>
+					               <li>Svenska B / Svenska 2 / Svenska som andra språk 2</li>
+					               <li>Engelska B / Engelska 6</li>
+					               <li>Programmering A / Programmering 1</li>
+					            </ul>
+				            </section>
+				            <section class="radio">
+			                    <p>Har du läst Programmering 1?</p>
+				                <br />
+				                <input type="radio" name="service" value="itunes"  /> Ja
+				                <input type="radio" name="service" value="lastfm" /> Nej
+				            </section>
+		                </aside>
+			            <form id="application">
+		                    <label for="name">Namn</label>
+			                <input type="text" id="name" name="name" required /><br>
+			                <label for="mail">Mailadress</label>
+			                <input type="text" id="mail" name="mail" required /><br>
+				            <label for="request">Önskemål på utbildningen</label>
+				            <textarea name="comments" id="request" cols="30" rows="3"></textarea>
+			                <input type="submit" value="Skicka" />
+		                </form>
+		            </div>
+				</div>
+				
+			</div>
+		</div>
+		<footer id="contact-info">
+			<h1 id="contact">Kontakt</h1>
+			<p id="phone">Telefonnummer: 070-751 25 82</p>
+			<p id="mail">Mail: patrik.m.bjorklund@gmail.com</p>
+		</footer>
+		<script src="js/landingPage.js"></script>
+	    <script src="js/jquery-1.11.0.js"></script>
+         <script src="js/jquery-ui.js"></script>
+		 <script src="js/jquiTabs.js"></script>
+	</body>
+</html>
