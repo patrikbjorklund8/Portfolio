@@ -1,7 +1,7 @@
 body {
     
     font-family: 'Open Sans', arial, sans-serif;
-    width: 90%;
+    width: 100%;
     background-color: green;
     margin: 0 auto;
     padding: 0;
@@ -62,26 +62,21 @@ nav a {
        height: 40px;
     }
 }
+
 .about-me {
-    position: relative;}	
-
- h2 {
-    position: absolute;
-    top: 80px;
-    font-size: 40px;
-    left: 850px;}
-
-.about-me p {
+    width: 100%;
+    margin-bottom: 600px;
     
-    position: absolute;
-    top: 150px;
-    text-align: center;
-    left: 850px;
-    width: 100px;}
+}
 
-.about-me img {
-	
-    left: 0;}
+.text-wrapper {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: -600px;
+}
+
+
 
 @media screen and (max-width: 1000px) {
     .about-me p {
@@ -96,6 +91,7 @@ nav a {
     }
 }
 #project {
+    
     width: 100%;
     text-align: center;}
 	
